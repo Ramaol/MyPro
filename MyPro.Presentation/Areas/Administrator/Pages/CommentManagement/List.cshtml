@@ -1,0 +1,48 @@
+@page
+@model MyPro.Presentation.Areas.Administrator.Pages.CommentManagement.List
+@{
+
+}
+
+<div class="card">
+        <div class="card-header">
+            <h3 class="float-left">Project List</h3>
+            @* <div class="float-right">
+                <a class="btn btn-success" asp-page="./Create" asp-area="Administrator">Add New</a>
+            </div> *@
+        </div>
+        <div class="card-body">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>CreationDate</th>
+                        <th>Status</th>
+                        <th>opertation</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.Comments)
+                    {
+                        <tr>
+                            <td>@item.Id</td>
+                            <td>@item.Name</td>
+                            <td>@item.Email</td>
+                            <td>@item.CreationDate</td>
+                                  <td>
+                                @if (item.IsRead)
+                                {
+                                    <p>Read</p>
+                                }
+                                else
+                                {
+                                    <p>Not Read</p>
+                                }
+                            </td>
+                            <td>
+                                <a class="btn btn-warning float-left mr-3" asp-page="./ReadComment" asp-route-id="@item.Id">See</a>
+                            </td>
+                        </tr>
+                    }

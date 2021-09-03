@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "MyPro.Application/1.0.0": {
+        "dependencies": {
+          "MyPro.Application.Contract": "1.0.0",
+          "MyPro.Domain": "1.0.0"
+        },
+        "runtime": {
+          "MyPro.Application.dll": {}
+        }
+      },
+      "MyPro.Application.Contract/1.0.0": {
+        "runtime": {
+          "MyPro.Application.Contract.dll": {}
+        }
+      },
+      "MyPro.Domain/1.0.0": {
+        "dependencies": {
+          "MyPro.Application.Contract": "1.0.0"
+        },
+        "runtime": {
+          "MyPro.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MyPro.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyPro.Application.Contract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyPro.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

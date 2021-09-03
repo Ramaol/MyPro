@@ -1,0 +1,12 @@
+/home/ramol/Ramol/MyPro/MyPro.Application.Contract/bin/Debug/net5.0/MyPro.Application.Contract.deps.json
+/home/ramol/Ramol/MyPro/MyPro.Application.Contract/bin/Debug/net5.0/MyPro.Application.Contract.dll
+/home/ramol/Ramol/MyPro/MyPro.Application.Contract/bin/Debug/net5.0/ref/MyPro.Application.Contract.dll
+/home/ramol/Ramol/MyPro/MyPro.Application.Contract/bin/Debug/net5.0/MyPro.Application.Contract.pdb
+/home/ramol/Ramol/MyPro/MyPro.Application.Contract/obj/Debug/net5.0/MyPro.Application.Contract.csproj.AssemblyReference.cache
+/home/ramol/Ramol/MyPro/MyPro.Application.Contract/obj/Debug/net5.0/MyPro.Application.Contract.GeneratedMSBuildEditorConfig.editorconfig
+/home/ramol/Ramol/MyPro/MyPro.Application.Contract/obj/Debug/net5.0/MyPro.Application.Contract.AssemblyInfoInputs.cache
+/home/ramol/Ramol/MyPro/MyPro.Application.Contract/obj/Debug/net5.0/MyPro.Application.Contract.AssemblyInfo.cs
+/home/ramol/Ramol/MyPro/MyPro.Application.Contract/obj/Debug/net5.0/MyPro.Application.Contract.csproj.CoreCompileInputs.cache
+/home/ramol/Ramol/MyPro/MyPro.Application.Contract/obj/Debug/net5.0/MyPro.Application.Contract.dll
+/home/ramol/Ramol/MyPro/MyPro.Application.Contract/obj/Debug/net5.0/ref/MyPro.Application.Contract.dll
+/home/ramol/Ramol/MyPro/MyPro.Application.Contract/obj/Debug/net5.0/MyPro.Application.Contract.pdb

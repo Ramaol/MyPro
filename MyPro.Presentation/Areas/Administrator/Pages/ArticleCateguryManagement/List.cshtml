@@ -1,0 +1,75 @@
+@page
+@model MyPro.Presentation.Areas.Administrator.Pages.ArticleCateguryManagement.List
+@{
+
+}
+
+<div class="card">
+    <div class="card-header">
+        <h3 class="float-left">Article Categury List</h3>
+        <div class="float-right">
+            <a class="btn btn-success" asp-page ="/ArticleCateguryManagement/Create" asp-area="Administrator" > Greate new </a>   
+        </div>
+    </div>
+
+    <div class="card-body">
+        <table class="table">
+            <thead>           
+                    <tr>
+                        <th>Id</th>
+                        <th>Title</th>
+                        <th>Status</th>
+                        <th>CreationDate</th>
+                        <th>operations</th>
+                    </tr>      
+            </thead>
+            <tbody>
+                  @foreach (var item in Model.ArticleCateguryViewModels)
+                {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>@item.Title</td>
+                        
+                        @if (item.IsDeleted)
+                        {
+                            <td>Deleted</td>
+                        }else
+                        {
+                            <td>Exist</td>
+                        }
+                            
+                            
+                            
+                            @*this is need font awsome  *@
+                            @* @if(item.IsDeleted)
+                            {
+                                <i class="fa fa-close fa-2x text-danger"></i>
+                            }else
+                            {
+                                <i class="fa fa-check fa-2x fa-success"></i>
+                            } *@
+                        
+                        <td>@item.CreationDate</td>
+                        <td>
+                            <a class="btn btn-warning float-left mr-3" asp-page="./Edit" asp-route-id="@item.Id">Rename</a>
+                            @if (item.IsDeleted)
+                            {
+                                <form method="post" asp-page-handler="Activate" class="float-left">
+                                    <button class="btn btn-success">Activate</button>
+                                    <input type="hidden" name="id" value="@item.Id" />
+                                </form>
+                            }
+                            else
+                            {
+                                <form method="post" asp-page-handler="Remove" class="float-left">
+                                    <button class="btn btn-danger">Remove</button>
+                                    <input type="hidden" name="id" value="@item.Id" />
+                                </form>
+                            }
+                        </td>
+                    </tr>
+                } 
+            </tbody>
+        </table>
+    </div>
+</div>

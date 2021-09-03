@@ -1,0 +1,15 @@
+/home/ramol/Ramol/MyPro/MyPro.Domain/bin/Debug/net5.0/MyPro.Domain.deps.json
+/home/ramol/Ramol/MyPro/MyPro.Domain/bin/Debug/net5.0/MyPro.Domain.dll
+/home/ramol/Ramol/MyPro/MyPro.Domain/bin/Debug/net5.0/ref/MyPro.Domain.dll
+/home/ramol/Ramol/MyPro/MyPro.Domain/bin/Debug/net5.0/MyPro.Domain.pdb
+/home/ramol/Ramol/MyPro/MyPro.Domain/obj/Debug/net5.0/MyPro.Domain.csproj.AssemblyReference.cache
+/home/ramol/Ramol/MyPro/MyPro.Domain/obj/Debug/net5.0/MyPro.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/ramol/Ramol/MyPro/MyPro.Domain/obj/Debug/net5.0/MyPro.Domain.AssemblyInfoInputs.cache
+/home/ramol/Ramol/MyPro/MyPro.Domain/obj/Debug/net5.0/MyPro.Domain.AssemblyInfo.cs
+/home/ramol/Ramol/MyPro/MyPro.Domain/obj/Debug/net5.0/MyPro.Domain.csproj.CoreCompileInputs.cache
+/home/ramol/Ramol/MyPro/MyPro.Domain/obj/Debug/net5.0/MyPro.Domain.dll
+/home/ramol/Ramol/MyPro/MyPro.Domain/obj/Debug/net5.0/ref/MyPro.Domain.dll
+/home/ramol/Ramol/MyPro/MyPro.Domain/obj/Debug/net5.0/MyPro.Domain.pdb
+/home/ramol/Ramol/MyPro/MyPro.Domain/bin/Debug/net5.0/MyPro.Application.Contract.dll
+/home/ramol/Ramol/MyPro/MyPro.Domain/bin/Debug/net5.0/MyPro.Application.Contract.pdb
+/home/ramol/Ramol/MyPro/MyPro.Domain/obj/Debug/net5.0/MyPro.Domain.csproj.CopyComplete
